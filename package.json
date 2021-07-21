@@ -2,18 +2,18 @@
   "name": "vitedemo",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --host",
-    "build": "vite build --host",
-    "serve": "vite preview --host"
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
   },
   "dependencies": {
-    "sass": "^1.34.1",
-    "vue": "^3.0.5",
-    "vue-router": "^4.0.10"
+    "vue": "^3.0.5"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.2.2",
+    "@vitejs/plugin-vue": "^1.2.5",
     "@vue/compiler-sfc": "^3.0.5",
-    "vite": "^2.3.4"
+    "typescript": "^4.3.2",
+    "vite": "^2.4.3",
+    "vue-tsc": "^0.0.24"
   }
 }
